@@ -11,11 +11,11 @@ TFT_eSPI *tft;
 BMA *sensor;
 
 
-const char* ssid = "AMEIoT";
-const char* password = "ameclass";
+const char* ssid = "mocap";
+const char* password = "formocap";
 
 //Your Domain name with URL path or IP address with path
-const char* serverName = "http://54.152.107.229:8080/sendData";
+const char* serverName = "http://192.168.2.62:8081/sendData";
 
 // the following variables are unsigned longs because the time, measured in
 // milliseconds, will quickly become a bigger number than can be stored in an int.
