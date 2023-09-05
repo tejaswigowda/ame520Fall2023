@@ -4,8 +4,8 @@
 
 
 
-const char* ssid = "NETGEAR31";
-const char* password = "fluffywind2904";
+const char* ssid = "mocap";
+const char* password = "formocap";
 
 //Your Domain name with URL path or IP address with path
 const char* serverName = "http://www.google.com/";
